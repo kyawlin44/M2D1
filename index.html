@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>TITLE</h1>
+    <script>
+      let numberOfCars = prompt("Type the number of cars in the garage")
+      console.log("TOTAL CARS:", numberOfCars)
+      
+      let worthOfCars = prompt("Type average price of a car")
+      console.log("EACH CAR WORTH:", worthOfCars)
+
+      let numberOfMotorbikes = prompt("Type the number of motorbikes in the garage");
+      console.log("TOTAL MOTORBIKES:", numberOfMotorbikes);
+      let worthOfMotorbikes = prompt("Type average price of a motorbike");
+      console.log("EACH MOTORBIKE WORTH:", worthOfMotorbikes);
+
+      let numberOfBikes = prompt("Type the number of bikes in the garage");
+      console.log("TOTAL BIKES:", numberOfBikes);
+      let worthOfBikes = prompt("Type average price of a bike");
+      console.log("EACH BIKE WORTH:", worthOfBikes);
+
+      let totalCarValue = numberOfCars * worthOfCars;
+      console.log("WORTH OF ALL CARS:", totalCarValue);
+
+      let totalMotorbikeValue = numberOfMotorbikes * worthOfMotorbikes;
+      console.log("WORTH OF ALL MOTORBIKES:", totalMotorbikeValue);
+
+      let totalBikeValue = numberOfBikes * worthOfBikes;
+      console.log("WORTH OF ALL BIKES:", totalBikeValue);
+
+      let totalGarageValue =
+        totalCarValue + totalMotorbikeValue + totalBikeValue;
+      alert("A GARAGE SALES?: " + totalGarageValue);
+
+    </script>
+  </body>
+</html>
